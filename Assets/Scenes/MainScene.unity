@@ -251,7 +251,7 @@ GameObject:
   - component: {fileID: 418710554}
   - component: {fileID: 418710553}
   m_Layer: 5
-  m_Name: ExitImageBackground
+  m_Name: ExitImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -314,6 +314,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 418710551}
   m_CullTransparentMesh: 1
+--- !u!1 &674440357 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2762558998036841209, guid: a46f58d63be69ab45839af230ba7a215,
+    type: 3}
+  m_PrefabInstance: {fileID: 2762558997584297505}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &674440358 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2762558998036881113, guid: a46f58d63be69ab45839af230ba7a215,
@@ -3859,6 +3865,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1174464497}
   - component: {fileID: 1174464496}
+  - component: {fileID: 1174464498}
   m_Layer: 0
   m_Name: GameEnding
   m_TagString: Untagged
@@ -3893,6 +3900,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1174464498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1174464495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5369fa284d1f28f45b5837e9131a21f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fadeDuration: 1
+  displayImageDuration: 1
+  player: {fileID: 674440357}
+  exitBackgroundImageCanvasGroup: {fileID: 1673435004}
 --- !u!1 &1630575524
 GameObject:
   m_ObjectHideFlags: 3
